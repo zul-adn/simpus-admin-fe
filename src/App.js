@@ -112,7 +112,7 @@ const Login = () => {
             <label htmlFor='text' className={`text-xs font-medium mt-10`}>Email address</label>
             <input
               type='text'
-              className={`w-full p-3 ${iseErrEmail ? 'border-2 border-red-500 outline-red-500' : 'border'} rounded text-sm transition duration-150 ease-in-out`}
+              className={`w-full p-3 ${iseErrEmail ? 'border-2 border-red-500 outline-red-500' : 'border'} rounded text-sm transition duration-150 ease-in-out mt-1`}
               id='email'
               placeholder='Type email here'
               onChange={handleEmailChange}
@@ -129,7 +129,7 @@ const Login = () => {
             <label htmlFor='password' className={`text-xs font-medium`}>Password</label>
             <input
               type='password'
-              className={`w-full p-3 text-primary ${iseErrPassword ? 'border-2 border-red-500 outline-red-500' : 'border'} rounded text-sm transition duration-150 ease-in-out`}
+              className={`w-full p-3 text-primary ${iseErrPassword ? 'border-2 border-red-500 outline-red-500' : 'border'} rounded text-sm transition duration-150 ease-in-out mt-1`}
               id='password'
               placeholder='Minimum 8 characters'
               onChange={handlePasswordChange}
