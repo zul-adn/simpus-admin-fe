@@ -1,7 +1,7 @@
 {
   "name": "schutze",
   "version": "0.1.0",
-  "homepage": "http://zul-adn.github.io/schutze-test",
+  "homepage": "http://zul-adn.github.io/simpus-admin-fe",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
