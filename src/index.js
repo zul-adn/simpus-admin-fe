@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'boxicons';
 import App from './App';
+import Index from './Root';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
